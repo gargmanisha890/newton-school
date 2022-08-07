@@ -1,0 +1,40 @@
+Here are some of the most common event types and event names:
+
+Mouse Events: click, dblclick, mousedown, mouseup, contextmenu, mouseout, mousewheel, mouseover
+Touch Events: touchstart, touchend, touchmove, touchcancel
+Keyboard Events: keydown, keyup, keypress
+Form Events: focus, blur, change, submit
+Window Events: resize, scroll, load, unload, hashchange
+Touch events are triggered on touch-enabled devices such as smartphones, tablets, and touch-screen laptops. Mouse events are triggered on the majority of all browsers and devices. The MouseEvent interface represents events that occur due to the user interacting with a pointing device.
+
+The click event: The onclick event occurs when the user clicks on an element.
+
+The dblclick event: ondblclick event occurs when the user double-clicks on an element.
+
+Mousedown & Mouseup events:A pointing device button is pressed/released on an element.
+
+Mouseout event: A pointing device is moved off the element that has the listener attached.
+
+Keyboard events(keydown, keyup, keypress):
+
+Keydown: Any key is pressed.
+keyup: Any key is released.
+keypress: Any key (except shift, Fn, or capslock) is in the pressed position(fired continuously.)
+Form Events(focus, blur, change, submit):
+
+focus: An element that has received focus.
+blur: An element that has lost focus.
+change: Event that is fired for input, select, and textarea elements when an alteration to the element’s value is done by the user.
+submit: The submit button is pressed.
+Window Events(resize, scroll, load, unload, hashchange):
+
+resize: This event fires when the document view(window) has been resized.
+scroll: Event fires when the document view or an element has been scrolled.
+load/unload: The load event is fired when the whole page has loaded, including all resources such as css and images. Unload is when the document or child resource is being unloaded.
+hashchange: This event is fired when the identifier of the URL has changed(the part of the URL that begins with a # symbol).
+Some other common DOM events that are used are:
+
+error: A resource has failed to load.
+abort: The loading fo a resource was aborted.
+online: The browser has gained access to the network.
+animationstart: This event fires when a CSS animatino has started.

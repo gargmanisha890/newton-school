@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    display: block;
+    background-color: rgb(127, 128, 129);
+
+
+}
+
+section {
+    display: block;
+}
+
+.left-content {
+    padding: 1rem;
+}
+
+.left_section {
+    grid-column: span 1;
+    /* background: linear-gradient(top right,blue,rgb(255, 55, 222),blue); */
+    background-image: linear-gradient(to right, blue, rgb(255, 55, 222), blue);
+    padding: 1rem;
+}
+
+.right_section {
+    grid-column: span 1 / span 2;
+    background-color: white;
+    padding: 1px;
+    margin-right: 5px;
+}
+
+.main-content {
+    box-sizing: border-box;
+    display: grid;
+    width: 90%;
+    min-height: 1000px;
+    margin: 20px auto;
+    padding-left: auto;
+    padding-right: auto;
+    grid-template-columns: 300px 1000px;
+
+}
+
+.right_section h2 {
+    text-align: center;
+}
+
+.profile {
+    padding: 1rem;
+    margin: auto;
+    display: block;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 80px;
+    background-size: cover;
+}
+
+img {
+    height: 50px;
+    width: 80px;
+    background-size: cover;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    text-transform: uppercase;
+}
+
+.designation {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.description {
+    padding: 1rem;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.skills {
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.skill-name {
+    padding-bottom: 0.5rem;
+    text-align: left;
+    font-size: 0.65rem;
+    font-weight: 200;
+}
+
+.progress-bar {
+    border: 1px solid white;
+    height: 4px;
+}
+
+.right-main-content {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.right-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:673px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

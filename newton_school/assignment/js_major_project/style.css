@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.comment{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-image: url(https://cdn.wallpapersafari.com/52/31/mQgWhS.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+#txt_id{
+    font-size: 18px;
+}
+#addbtn{
+    font-size: 18px;
+    top: 8px;
+}

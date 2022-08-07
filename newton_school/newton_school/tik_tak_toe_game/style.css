@@ -1,0 +1,18 @@
+#playground {
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mark {
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+}

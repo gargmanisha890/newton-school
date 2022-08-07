@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content:space-between ;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    flex-flow: wrap-reverse column-reverse;
+    /* flex flow used for combined direction and wrap*/
+    flex-flow: column-reverse wrap;
+    align-content:center;
+    align-content:flex-end; 
+    /* align content used for align the content*/
+
+    /*css grid*/
+    display: grid;
+    grid-template-columns: repeat(width 12.5%);
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 20% 20% 20%;
+    grid-column-start: 1; /* it will give us starting value*/
+    grid-column-start: span 2; /* span will set your item's width relative to the end position.*/
+    grid-column-end: 4; /* it will give us ending value*/
+    grid-column: 2 / 4; /* it will combined start and end value*/
+    grid-row-start:3;
+    grid-row: 1/5;
+    grid-area: 1/1/5/5;/*there's yet another shorthand for that. grid-area accepts four values separated by slashes: grid-row-start, grid-column-start, grid-row-end, followed by grid-column-end.*/
+}
+/*order property used for reoder items for example if we want to shift the item in rigth use no 5 1 and we want to 
+to shift item in left then use - value for ex -1,-2 */
+div{
+    order: -1;
+    order: 2;
+    order: 4;
+}
+
